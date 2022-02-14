@@ -27,6 +27,7 @@ composer.lock
 evatestdox.html
 .env
 .phpunit.result.cache
+.phpunit.cache
 
 # exclude everything
 /var/*
