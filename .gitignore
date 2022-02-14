@@ -30,6 +30,7 @@ evatestdox.html
 
 # exclude everything
 /var/*
+/var/html-coverage/*
 
 # exception to the rule
 !var/.gitkeep
