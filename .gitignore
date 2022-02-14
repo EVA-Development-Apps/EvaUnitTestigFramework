@@ -20,17 +20,19 @@ storage/*.key
 Homestead.yaml
 Homestead.json
 /.vagrant
-.phpunit.result.cache
 
 /vendor/
 
 composer.lock
 evatestdox.html
 .env
-.phpunit.result.cache
+.phpunit.result.cache/*
 
 # exclude everything
 /var/*
 
 # exception to the rule
-!/var/.gitkeep 
+!var/.gitkeep
+!var/cache/.gitkeep
+!var/html-coverage/.gitkeep
+!var/log/.gitkeep
