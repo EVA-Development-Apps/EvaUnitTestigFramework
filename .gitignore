@@ -23,8 +23,14 @@ Homestead.json
 .phpunit.result.cache
 
 /vendor/
-/var/
+
 composer.lock
 evatestdox.html
 .env
 .phpunit.result.cache
+
+# exclude everything
+/var/*
+
+# exception to the rule
+!/var/.gitkeep 
