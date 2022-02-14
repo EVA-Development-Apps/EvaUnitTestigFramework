@@ -26,7 +26,7 @@ Homestead.json
 composer.lock
 evatestdox.html
 .env
-.phpunit.result.cache/*
+/.phpunit.result.cache/
 
 # exclude everything
 /var/*
